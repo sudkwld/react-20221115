@@ -1,0 +1,142 @@
+.sub-menu-wrap {
+  width: 100%;
+}
+
+.sub-menu-bg {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  position: relative;
+}
+
+.sub-menu-bg h3 {
+  font-size: 40px;
+  margin: 0;
+  padding-top: 60px;
+  font-weight: 400;
+}
+
+.sub-menu-bg span {
+  font-size: 20px;
+  color: #a6c76c;
+}
+
+.account-menu {
+  padding-bottom: 40px;
+}
+
+.account-menu li {
+  cursor: pointer;
+  width: 100%;
+  padding: 25px 0 15px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+  color: #333;
+}
+
+.account-text {
+  padding: 30px;
+}
+
+.account-text h4 {
+  font-size: 14px;
+  color: #333;
+  letter-spacing: 0.2px;
+}
+
+.account-text p {
+  font-size: 14px;
+  color: #333;
+  line-height: 30px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.green {
+  color: #a6c76c;
+}
+
+.green-text {
+  color: #a6c76c;
+  text-decoration: underline;
+}
+
+.account-text-area {
+  padding: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.account-text-area p {
+  font-size: 14px;
+  width: 100%;
+}
+
+.shipping-box {
+  width: 48%;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+.shipping-box h5 {
+  color: #333;
+}
+
+.shipping-box ul {
+  margin: 0;
+  padding: 0;
+}
+
+.shipping-box ul li {
+  font-size: 14px;
+  color: #777;
+  line-height: 30px;
+}
+
+.shipping-box ul .edit {
+  color: #cc9966;
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-area {
+  width: 48%;
+}
+
+.account-text input {
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+.name-area input {
+  width: 100%;
+}
+
+.account-text button {
+  background-color: #fff;
+  border: 1.4px solid #a6c76c;
+  padding: 5px 10px;
+  color: #a6c76c;
+}
+
+.account-text button:hover {
+  background-color: #a6c76c;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.account-text h5 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.save-changes {
+  margin-bottom: 30px;
+}
